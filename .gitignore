@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+frontend/node_modules/
+frontend/dist/
+data/multi_agent.sqlite3
+data/uploads/
+data/runs/
+.env
+.ipynb_checkpoints/
+.DS_Store

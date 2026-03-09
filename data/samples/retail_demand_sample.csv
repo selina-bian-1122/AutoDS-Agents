@@ -1,0 +1,721 @@
+order_id,order_date,region,category,channel,units,unit_price,discount_rate,revenue,is_weekend
+ORD-1000,2025-01-01,North,Beauty,Wholesale,22,8.8,0.0,193.6,false
+ORD-1001,2025-01-01,North,Snacks,Wholesale,22,13.74,0.03,293.21,false
+ORD-1002,2025-01-01,North,Health,Wholesale,18,17.88,0.06,302.53,false
+ORD-1003,2025-01-01,North,Home Care,Wholesale,17,23.83,0.09,368.65,false
+ORD-1004,2025-01-01,South,Beauty,Wholesale,21,8.73,0.0,183.33,false
+ORD-1005,2025-01-01,South,Snacks,Wholesale,20,13.09,0.03,253.95,false
+ORD-1006,2025-01-01,South,Health,Wholesale,17,18.09,0.06,289.08,false
+ORD-1007,2025-01-01,South,Home Care,Wholesale,21,23.63,0.09,451.57,false
+ORD-1008,2025-01-01,East,Beauty,Online,20,9.04,0.0,180.8,false
+ORD-1009,2025-01-01,East,Snacks,Online,21,14.89,0.03,303.31,false
+ORD-1010,2025-01-01,East,Health,Online,19,18.1,0.06,323.27,false
+ORD-1011,2025-01-01,East,Home Care,Online,20,22.75,0.09,414.05,false
+ORD-1012,2025-01-01,West,Beauty,Online,16,10.55,0.0,168.8,false
+ORD-1013,2025-01-01,West,Snacks,Online,17,14.88,0.03,245.37,false
+ORD-1014,2025-01-01,West,Health,Online,18,18.25,0.06,308.79,false
+ORD-1015,2025-01-01,West,Home Care,Online,17,24.58,0.09,380.25,false
+ORD-1016,2025-01-02,North,Beauty,Store,21,8.78,0.03,178.85,false
+ORD-1017,2025-01-02,North,Snacks,Store,22,13.26,0.06,274.22,false
+ORD-1018,2025-01-02,North,Health,Store,21,19.13,0.09,365.57,false
+ORD-1019,2025-01-02,North,Home Care,Store,19,23.97,0.0,455.43,false
+ORD-1020,2025-01-02,South,Beauty,Store,23,8.84,0.03,197.22,false
+ORD-1021,2025-01-02,South,Snacks,Store,22,13.21,0.06,273.18,false
+ORD-1022,2025-01-02,South,Health,Store,21,19.74,0.09,377.23,false
+ORD-1023,2025-01-02,South,Home Care,Store,23,24.39,0.0,560.97,false
+ORD-1024,2025-01-02,East,Beauty,Wholesale,20,10.06,0.03,195.16,false
+ORD-1025,2025-01-02,East,Snacks,Wholesale,23,13.19,0.06,285.17,false
+ORD-1026,2025-01-02,East,Health,Wholesale,23,18.12,0.09,379.25,false
+ORD-1027,2025-01-02,East,Home Care,Wholesale,20,24.66,0.0,493.2,false
+ORD-1028,2025-01-02,West,Beauty,Wholesale,19,10.84,0.03,199.78,false
+ORD-1029,2025-01-02,West,Snacks,Wholesale,21,13.75,0.06,271.43,false
+ORD-1030,2025-01-02,West,Health,Wholesale,23,19.75,0.09,413.37,false
+ORD-1031,2025-01-02,West,Home Care,Wholesale,19,23.0,0.0,437.0,false
+ORD-1032,2025-01-03,North,Beauty,Online,22,10.31,0.06,213.21,false
+ORD-1033,2025-01-03,North,Snacks,Online,26,15.53,0.09,367.44,false
+ORD-1034,2025-01-03,North,Health,Online,26,17.69,0.0,459.94,false
+ORD-1035,2025-01-03,North,Home Care,Online,26,22.46,0.03,566.44,false
+ORD-1036,2025-01-03,South,Beauty,Online,26,9.16,0.06,223.87,false
+ORD-1037,2025-01-03,South,Snacks,Online,24,14.02,0.09,306.2,false
+ORD-1038,2025-01-03,South,Health,Online,26,19.36,0.0,503.36,false
+ORD-1039,2025-01-03,South,Home Care,Online,22,23.85,0.03,508.96,false
+ORD-1040,2025-01-03,East,Beauty,Store,20,9.12,0.06,171.46,false
+ORD-1041,2025-01-03,East,Snacks,Store,20,15.17,0.09,276.09,false
+ORD-1042,2025-01-03,East,Health,Store,23,18.22,0.0,419.06,false
+ORD-1043,2025-01-03,East,Home Care,Store,21,24.47,0.03,498.45,false
+ORD-1044,2025-01-03,West,Beauty,Store,24,10.87,0.06,245.23,false
+ORD-1045,2025-01-03,West,Snacks,Store,22,13.57,0.09,271.67,false
+ORD-1046,2025-01-03,West,Health,Store,23,18.57,0.0,427.11,false
+ORD-1047,2025-01-03,West,Home Care,Store,25,23.24,0.03,563.57,false
+ORD-1048,2025-01-04,North,Beauty,Wholesale,43,8.88,0.09,347.47,true
+ORD-1049,2025-01-04,North,Snacks,Wholesale,37,14.52,0.0,537.24,true
+ORD-1050,2025-01-04,North,Health,Wholesale,33,19.52,0.03,624.84,true
+ORD-1051,2025-01-04,North,Home Care,Wholesale,35,24.42,0.06,803.42,true
+ORD-1052,2025-01-04,South,Beauty,Wholesale,44,9.48,0.09,379.58,true
+ORD-1053,2025-01-04,South,Snacks,Wholesale,32,14.38,0.0,460.16,true
+ORD-1054,2025-01-04,South,Health,Wholesale,31,19.54,0.03,587.57,true
+ORD-1055,2025-01-04,South,Home Care,Wholesale,31,22.41,0.06,653.03,true
+ORD-1056,2025-01-04,East,Beauty,Online,40,10.64,0.09,387.3,true
+ORD-1057,2025-01-04,East,Snacks,Online,33,14.61,0.0,482.13,true
+ORD-1058,2025-01-04,East,Health,Online,33,18.53,0.03,593.15,true
+ORD-1059,2025-01-04,East,Home Care,Online,33,23.43,0.06,726.8,true
+ORD-1060,2025-01-04,West,Beauty,Online,44,10.82,0.09,433.23,true
+ORD-1061,2025-01-04,West,Snacks,Online,29,14.84,0.0,430.36,true
+ORD-1062,2025-01-04,West,Health,Online,29,19.34,0.03,544.03,true
+ORD-1063,2025-01-04,West,Home Care,Online,35,24.03,0.06,790.59,true
+ORD-1064,2025-01-05,North,Beauty,Store,49,9.42,0.0,461.58,true
+ORD-1065,2025-01-05,North,Snacks,Store,36,14.17,0.03,494.82,true
+ORD-1066,2025-01-05,North,Health,Store,37,17.51,0.06,609.0,true
+ORD-1067,2025-01-05,North,Home Care,Store,40,24.36,0.09,886.7,true
+ORD-1068,2025-01-05,South,Beauty,Store,45,11.12,0.0,500.4,true
+ORD-1069,2025-01-05,South,Snacks,Store,35,14.37,0.03,487.86,true
+ORD-1070,2025-01-05,South,Health,Store,33,19.85,0.06,615.75,true
+ORD-1071,2025-01-05,South,Home Care,Store,36,24.27,0.09,795.09,true
+ORD-1072,2025-01-05,East,Beauty,Wholesale,47,10.14,0.0,476.58,true
+ORD-1073,2025-01-05,East,Snacks,Wholesale,33,14.01,0.03,448.46,true
+ORD-1074,2025-01-05,East,Health,Wholesale,33,18.96,0.06,588.14,true
+ORD-1075,2025-01-05,East,Home Care,Wholesale,37,24.48,0.09,824.24,true
+ORD-1076,2025-01-05,West,Beauty,Wholesale,47,9.38,0.0,440.86,true
+ORD-1077,2025-01-05,West,Snacks,Wholesale,32,13.3,0.03,412.83,true
+ORD-1078,2025-01-05,West,Health,Wholesale,35,19.87,0.06,653.72,true
+ORD-1079,2025-01-05,West,Home Care,Wholesale,35,22.65,0.09,721.4,true
+ORD-1080,2025-01-06,North,Beauty,Online,18,10.87,0.03,189.79,false
+ORD-1081,2025-01-06,North,Snacks,Online,17,13.23,0.06,211.42,false
+ORD-1082,2025-01-06,North,Health,Online,20,19.7,0.09,358.54,false
+ORD-1083,2025-01-06,North,Home Care,Online,21,24.07,0.0,505.47,false
+ORD-1084,2025-01-06,South,Beauty,Online,18,10.28,0.03,179.49,false
+ORD-1085,2025-01-06,South,Snacks,Online,21,13.45,0.06,265.5,false
+ORD-1086,2025-01-06,South,Health,Online,21,19.86,0.09,379.52,false
+ORD-1087,2025-01-06,South,Home Care,Online,20,24.6,0.0,492.0,false
+ORD-1088,2025-01-06,East,Beauty,Store,20,10.54,0.03,204.48,false
+ORD-1089,2025-01-06,East,Snacks,Store,21,13.54,0.06,267.28,false
+ORD-1090,2025-01-06,East,Health,Store,18,18.58,0.09,304.34,false
+ORD-1091,2025-01-06,East,Home Care,Store,21,23.75,0.0,498.75,false
+ORD-1092,2025-01-06,West,Beauty,Store,19,10.93,0.03,201.44,false
+ORD-1093,2025-01-06,West,Snacks,Store,19,13.33,0.06,238.07,false
+ORD-1094,2025-01-06,West,Health,Store,17,17.67,0.09,273.35,false
+ORD-1095,2025-01-06,West,Home Care,Store,16,23.59,0.0,377.44,false
+ORD-1096,2025-01-07,North,Beauty,Wholesale,20,10.09,0.06,189.69,false
+ORD-1097,2025-01-07,North,Snacks,Wholesale,19,13.19,0.09,228.06,false
+ORD-1098,2025-01-07,North,Health,Wholesale,24,17.66,0.0,423.84,false
+ORD-1099,2025-01-07,North,Home Care,Wholesale,19,24.44,0.03,450.43,false
+ORD-1100,2025-01-07,South,Beauty,Wholesale,21,8.69,0.06,171.54,false
+ORD-1101,2025-01-07,South,Snacks,Wholesale,20,13.75,0.09,250.25,false
+ORD-1102,2025-01-07,South,Health,Wholesale,22,18.08,0.0,397.76,false
+ORD-1103,2025-01-07,South,Home Care,Wholesale,20,23.95,0.03,464.63,false
+ORD-1104,2025-01-07,East,Beauty,Online,22,10.06,0.06,208.04,false
+ORD-1105,2025-01-07,East,Snacks,Online,19,15.12,0.09,261.42,false
+ORD-1106,2025-01-07,East,Health,Online,21,18.01,0.0,378.21,false
+ORD-1107,2025-01-07,East,Home Care,Online,18,23.78,0.03,415.2,false
+ORD-1108,2025-01-07,West,Beauty,Online,20,9.64,0.06,181.23,false
+ORD-1109,2025-01-07,West,Snacks,Online,21,15.33,0.09,292.96,false
+ORD-1110,2025-01-07,West,Health,Online,18,19.32,0.0,347.76,false
+ORD-1111,2025-01-07,West,Home Care,Online,23,22.27,0.03,496.84,false
+ORD-1112,2025-01-08,North,Beauty,Store,24,10.47,0.09,228.66,false
+ORD-1113,2025-01-08,North,Snacks,Store,21,13.67,0.0,287.07,false
+ORD-1114,2025-01-08,North,Health,Store,22,18.95,0.03,404.39,false
+ORD-1115,2025-01-08,North,Home Care,Store,22,23.14,0.06,478.54,false
+ORD-1116,2025-01-08,South,Beauty,Store,23,9.75,0.09,204.07,false
+ORD-1117,2025-01-08,South,Snacks,Store,21,14.2,0.0,298.2,false
+ORD-1118,2025-01-08,South,Health,Store,25,17.76,0.03,430.68,false
+ORD-1119,2025-01-08,South,Home Care,Store,26,24.7,0.06,603.67,false
+ORD-1120,2025-01-08,East,Beauty,Wholesale,20,11.12,0.09,202.38,false
+ORD-1121,2025-01-08,East,Snacks,Wholesale,21,13.45,0.0,282.45,false
+ORD-1122,2025-01-08,East,Health,Wholesale,23,18.8,0.03,419.43,false
+ORD-1123,2025-01-08,East,Home Care,Wholesale,23,24.44,0.06,528.39,false
+ORD-1124,2025-01-08,West,Beauty,Wholesale,21,9.52,0.09,181.93,false
+ORD-1125,2025-01-08,West,Snacks,Wholesale,23,13.72,0.0,315.56,false
+ORD-1126,2025-01-08,West,Health,Wholesale,23,18.27,0.03,407.6,false
+ORD-1127,2025-01-08,West,Home Care,Wholesale,25,24.58,0.06,577.63,false
+ORD-1128,2025-01-09,North,Beauty,Online,27,10.29,0.0,277.83,false
+ORD-1129,2025-01-09,North,Snacks,Online,26,13.42,0.03,338.45,false
+ORD-1130,2025-01-09,North,Health,Online,25,18.09,0.06,425.11,false
+ORD-1131,2025-01-09,North,Home Care,Online,23,23.56,0.09,493.11,false
+ORD-1132,2025-01-09,South,Beauty,Online,27,8.66,0.0,233.82,false
+ORD-1133,2025-01-09,South,Snacks,Online,25,13.15,0.03,318.89,false
+ORD-1134,2025-01-09,South,Health,Online,27,18.79,0.06,476.89,false
+ORD-1135,2025-01-09,South,Home Care,Online,27,22.43,0.09,551.11,false
+ORD-1136,2025-01-09,East,Beauty,Store,26,8.72,0.0,226.72,false
+ORD-1137,2025-01-09,East,Snacks,Store,23,13.19,0.03,294.27,false
+ORD-1138,2025-01-09,East,Health,Store,22,19.32,0.06,399.54,false
+ORD-1139,2025-01-09,East,Home Care,Store,23,23.09,0.09,483.27,false
+ORD-1140,2025-01-09,West,Beauty,Store,26,9.16,0.0,238.16,false
+ORD-1141,2025-01-09,West,Snacks,Store,26,13.11,0.03,330.63,false
+ORD-1142,2025-01-09,West,Health,Store,22,18.63,0.06,385.27,false
+ORD-1143,2025-01-09,West,Home Care,Store,26,23.53,0.09,556.72,false
+ORD-1144,2025-01-10,North,Beauty,Wholesale,27,11.02,0.03,288.61,false
+ORD-1145,2025-01-10,North,Snacks,Wholesale,26,14.81,0.06,361.96,false
+ORD-1146,2025-01-10,North,Health,Wholesale,27,18.14,0.09,445.7,false
+ORD-1147,2025-01-10,North,Home Care,Wholesale,28,22.35,0.0,625.8,false
+ORD-1148,2025-01-10,South,Beauty,Wholesale,30,9.31,0.03,270.92,false
+ORD-1149,2025-01-10,South,Snacks,Wholesale,27,15.51,0.06,393.64,false
+ORD-1150,2025-01-10,South,Health,Wholesale,25,17.53,0.09,398.81,false
+ORD-1151,2025-01-10,South,Home Care,Wholesale,29,24.7,0.0,716.3,false
+ORD-1152,2025-01-10,East,Beauty,Online,24,8.7,0.03,202.54,false
+ORD-1153,2025-01-10,East,Snacks,Online,25,14.37,0.06,337.69,false
+ORD-1154,2025-01-10,East,Health,Online,25,20.02,0.09,455.46,false
+ORD-1155,2025-01-10,East,Home Care,Online,24,24.37,0.0,584.88,false
+ORD-1156,2025-01-10,West,Beauty,Online,26,9.27,0.03,233.79,false
+ORD-1157,2025-01-10,West,Snacks,Online,27,15.25,0.06,387.04,false
+ORD-1158,2025-01-10,West,Health,Online,29,18.32,0.09,483.46,false
+ORD-1159,2025-01-10,West,Home Care,Online,29,23.43,0.0,679.47,false
+ORD-1160,2025-01-11,North,Beauty,Store,39,10.71,0.06,392.63,true
+ORD-1161,2025-01-11,North,Snacks,Store,25,15.52,0.09,353.08,true
+ORD-1162,2025-01-11,North,Health,Store,22,20.04,0.0,440.88,true
+ORD-1163,2025-01-11,North,Home Care,Store,24,22.71,0.03,528.69,true
+ORD-1164,2025-01-11,South,Beauty,Store,32,10.5,0.06,315.84,true
+ORD-1165,2025-01-11,South,Snacks,Store,24,13.74,0.09,300.08,true
+ORD-1166,2025-01-11,South,Health,Store,28,18.07,0.0,505.96,true
+ORD-1167,2025-01-11,South,Home Care,Store,25,22.55,0.03,546.84,true
+ORD-1168,2025-01-11,East,Beauty,Wholesale,37,10.8,0.06,375.62,true
+ORD-1169,2025-01-11,East,Snacks,Wholesale,27,14.32,0.09,351.84,true
+ORD-1170,2025-01-11,East,Health,Wholesale,21,17.75,0.0,372.75,true
+ORD-1171,2025-01-11,East,Home Care,Wholesale,25,24.24,0.03,587.82,true
+ORD-1172,2025-01-11,West,Beauty,Wholesale,31,8.51,0.06,247.98,true
+ORD-1173,2025-01-11,West,Snacks,Wholesale,22,14.72,0.09,294.69,true
+ORD-1174,2025-01-11,West,Health,Wholesale,24,17.94,0.0,430.56,true
+ORD-1175,2025-01-11,West,Home Care,Wholesale,25,23.49,0.03,569.63,true
+ORD-1176,2025-01-12,North,Beauty,Online,39,10.01,0.09,355.25,true
+ORD-1177,2025-01-12,North,Snacks,Online,25,13.2,0.0,330.0,true
+ORD-1178,2025-01-12,North,Health,Online,32,19.94,0.03,618.94,true
+ORD-1179,2025-01-12,North,Home Care,Online,31,22.1,0.06,643.99,true
+ORD-1180,2025-01-12,South,Beauty,Online,37,10.07,0.09,339.06,true
+ORD-1181,2025-01-12,South,Snacks,Online,27,14.16,0.0,382.32,true
+ORD-1182,2025-01-12,South,Health,Online,25,18.33,0.03,444.5,true
+ORD-1183,2025-01-12,South,Home Care,Online,25,24.43,0.06,574.11,true
+ORD-1184,2025-01-12,East,Beauty,Store,35,10.34,0.09,329.33,true
+ORD-1185,2025-01-12,East,Snacks,Store,31,13.28,0.0,411.68,true
+ORD-1186,2025-01-12,East,Health,Store,29,19.89,0.03,559.51,true
+ORD-1187,2025-01-12,East,Home Care,Store,28,24.63,0.06,648.26,true
+ORD-1188,2025-01-12,West,Beauty,Store,40,8.92,0.09,324.69,true
+ORD-1189,2025-01-12,West,Snacks,Store,25,15.33,0.0,383.25,true
+ORD-1190,2025-01-12,West,Health,Store,25,19.88,0.03,482.09,true
+ORD-1191,2025-01-12,West,Home Care,Store,24,22.48,0.06,507.15,true
+ORD-1192,2025-01-13,North,Beauty,Wholesale,23,10.61,0.0,244.03,false
+ORD-1193,2025-01-13,North,Snacks,Wholesale,24,15.17,0.03,353.16,false
+ORD-1194,2025-01-13,North,Health,Wholesale,26,19.69,0.06,481.22,false
+ORD-1195,2025-01-13,North,Home Care,Wholesale,23,22.43,0.09,469.46,false
+ORD-1196,2025-01-13,South,Beauty,Wholesale,26,8.79,0.0,228.54,false
+ORD-1197,2025-01-13,South,Snacks,Wholesale,21,15.32,0.03,312.07,false
+ORD-1198,2025-01-13,South,Health,Wholesale,22,18.04,0.06,373.07,false
+ORD-1199,2025-01-13,South,Home Care,Wholesale,24,22.94,0.09,501.01,false
+ORD-1200,2025-01-13,East,Beauty,Online,21,9.1,0.0,191.1,false
+ORD-1201,2025-01-13,East,Snacks,Online,25,13.52,0.03,327.86,false
+ORD-1202,2025-01-13,East,Health,Online,22,18.25,0.06,377.41,false
+ORD-1203,2025-01-13,East,Home Care,Online,20,24.61,0.09,447.9,false
+ORD-1204,2025-01-13,West,Beauty,Online,22,9.45,0.0,207.9,false
+ORD-1205,2025-01-13,West,Snacks,Online,24,14.08,0.03,327.78,false
+ORD-1206,2025-01-13,West,Health,Online,24,18.39,0.06,414.88,false
+ORD-1207,2025-01-13,West,Home Care,Online,20,22.31,0.09,406.04,false
+ORD-1208,2025-01-14,North,Beauty,Store,25,8.98,0.03,217.76,false
+ORD-1209,2025-01-14,North,Snacks,Store,25,13.1,0.06,307.85,false
+ORD-1210,2025-01-14,North,Health,Store,27,18.67,0.09,458.72,false
+ORD-1211,2025-01-14,North,Home Care,Store,28,24.12,0.0,675.36,false
+ORD-1212,2025-01-14,South,Beauty,Store,26,10.14,0.03,255.73,false
+ORD-1213,2025-01-14,South,Snacks,Store,27,13.31,0.06,337.81,false
+ORD-1214,2025-01-14,South,Health,Store,27,18.01,0.09,442.51,false
+ORD-1215,2025-01-14,South,Home Care,Store,23,23.91,0.0,549.93,false
+ORD-1216,2025-01-14,East,Beauty,Wholesale,22,9.9,0.03,211.27,false
+ORD-1217,2025-01-14,East,Snacks,Wholesale,26,14.85,0.06,362.93,false
+ORD-1218,2025-01-14,East,Health,Wholesale,27,19.49,0.09,478.87,false
+ORD-1219,2025-01-14,East,Home Care,Wholesale,23,22.98,0.0,528.54,false
+ORD-1220,2025-01-14,West,Beauty,Wholesale,22,11.06,0.03,236.02,false
+ORD-1221,2025-01-14,West,Snacks,Wholesale,24,14.68,0.06,331.18,false
+ORD-1222,2025-01-14,West,Health,Wholesale,27,19.79,0.09,486.24,false
+ORD-1223,2025-01-14,West,Home Care,Wholesale,27,24.43,0.0,659.61,false
+ORD-1224,2025-01-15,North,Beauty,Online,29,9.34,0.06,254.61,false
+ORD-1225,2025-01-15,North,Snacks,Online,28,13.88,0.09,353.66,false
+ORD-1226,2025-01-15,North,Health,Online,30,18.3,0.0,549.0,false
+ORD-1227,2025-01-15,North,Home Care,Online,26,22.52,0.03,567.95,false
+ORD-1228,2025-01-15,South,Beauty,Online,30,11.04,0.06,311.33,false
+ORD-1229,2025-01-15,South,Snacks,Online,30,15.02,0.09,410.05,false
+ORD-1230,2025-01-15,South,Health,Online,26,19.16,0.0,498.16,false
+ORD-1231,2025-01-15,South,Home Care,Online,27,23.1,0.03,604.99,false
+ORD-1232,2025-01-15,East,Beauty,Store,24,9.32,0.06,210.26,false
+ORD-1233,2025-01-15,East,Snacks,Store,25,14.16,0.09,322.14,false
+ORD-1234,2025-01-15,East,Health,Store,28,19.14,0.0,535.92,false
+ORD-1235,2025-01-15,East,Home Care,Store,26,23.26,0.03,586.62,false
+ORD-1236,2025-01-15,West,Beauty,Store,27,10.32,0.06,261.92,false
+ORD-1237,2025-01-15,West,Snacks,Store,28,14.28,0.09,363.85,false
+ORD-1238,2025-01-15,West,Health,Store,29,17.96,0.0,520.84,false
+ORD-1239,2025-01-15,West,Home Care,Store,24,22.77,0.03,530.09,false
+ORD-1240,2025-01-16,North,Beauty,Wholesale,22,10.21,0.09,204.4,false
+ORD-1241,2025-01-16,North,Snacks,Wholesale,19,13.25,0.0,251.75,false
+ORD-1242,2025-01-16,North,Health,Wholesale,18,19.32,0.03,337.33,false
+ORD-1243,2025-01-16,North,Home Care,Wholesale,18,24.18,0.06,409.13,false
+ORD-1244,2025-01-16,South,Beauty,Wholesale,18,8.57,0.09,140.38,false
+ORD-1245,2025-01-16,South,Snacks,Wholesale,18,15.66,0.0,281.88,false
+ORD-1246,2025-01-16,South,Health,Wholesale,21,19.79,0.03,403.12,false
+ORD-1247,2025-01-16,South,Home Care,Wholesale,17,23.23,0.06,371.22,false
+ORD-1248,2025-01-16,East,Beauty,Online,21,10.05,0.09,192.06,false
+ORD-1249,2025-01-16,East,Snacks,Online,21,14.88,0.0,312.48,false
+ORD-1250,2025-01-16,East,Health,Online,19,18.58,0.03,342.43,false
+ORD-1251,2025-01-16,East,Home Care,Online,17,23.77,0.06,379.84,false
+ORD-1252,2025-01-16,West,Beauty,Online,16,10.91,0.09,158.85,false
+ORD-1253,2025-01-16,West,Snacks,Online,16,15.1,0.0,241.6,false
+ORD-1254,2025-01-16,West,Health,Online,17,17.97,0.03,296.33,false
+ORD-1255,2025-01-16,West,Home Care,Online,21,23.4,0.06,461.92,false
+ORD-1256,2025-01-17,North,Beauty,Store,19,10.0,0.0,190.0,false
+ORD-1257,2025-01-17,North,Snacks,Store,19,14.23,0.03,262.26,false
+ORD-1258,2025-01-17,North,Health,Store,22,19.3,0.06,399.12,false
+ORD-1259,2025-01-17,North,Home Care,Store,23,23.61,0.09,494.16,false
+ORD-1260,2025-01-17,South,Beauty,Store,22,10.15,0.0,223.3,false
+ORD-1261,2025-01-17,South,Snacks,Store,24,15.41,0.03,358.74,false
+ORD-1262,2025-01-17,South,Health,Store,22,19.74,0.06,408.22,false
+ORD-1263,2025-01-17,South,Home Care,Store,23,23.2,0.09,485.58,false
+ORD-1264,2025-01-17,East,Beauty,Wholesale,19,10.51,0.0,199.69,false
+ORD-1265,2025-01-17,East,Snacks,Wholesale,21,14.22,0.03,289.66,false
+ORD-1266,2025-01-17,East,Health,Wholesale,19,19.77,0.06,353.09,false
+ORD-1267,2025-01-17,East,Home Care,Wholesale,20,24.07,0.09,438.07,false
+ORD-1268,2025-01-17,West,Beauty,Wholesale,22,9.81,0.0,215.82,false
+ORD-1269,2025-01-17,West,Snacks,Wholesale,19,13.74,0.03,253.23,false
+ORD-1270,2025-01-17,West,Health,Wholesale,18,19.43,0.06,328.76,false
+ORD-1271,2025-01-17,West,Home Care,Wholesale,19,22.73,0.09,393.0,false
+ORD-1272,2025-01-18,North,Beauty,Online,40,10.91,0.03,423.31,true
+ORD-1273,2025-01-18,North,Snacks,Online,28,13.37,0.06,351.9,true
+ORD-1274,2025-01-18,North,Health,Online,29,18.53,0.09,489.01,true
+ORD-1275,2025-01-18,North,Home Care,Online,29,23.91,0.0,693.39,true
+ORD-1276,2025-01-18,South,Beauty,Online,37,9.62,0.03,345.26,true
+ORD-1277,2025-01-18,South,Snacks,Online,31,14.47,0.06,421.66,true
+ORD-1278,2025-01-18,South,Health,Online,32,17.67,0.09,514.55,true
+ORD-1279,2025-01-18,South,Home Care,Online,32,23.05,0.0,737.6,true
+ORD-1280,2025-01-18,East,Beauty,Store,41,11.05,0.03,439.46,true
+ORD-1281,2025-01-18,East,Snacks,Store,27,15.31,0.06,388.57,true
+ORD-1282,2025-01-18,East,Health,Store,32,18.53,0.09,539.59,true
+ORD-1283,2025-01-18,East,Home Care,Store,27,24.55,0.0,662.85,true
+ORD-1284,2025-01-18,West,Beauty,Store,39,10.53,0.03,398.35,true
+ORD-1285,2025-01-18,West,Snacks,Store,31,14.45,0.06,421.07,true
+ORD-1286,2025-01-18,West,Health,Store,33,18.97,0.09,569.67,true
+ORD-1287,2025-01-18,West,Home Care,Store,32,24.42,0.0,781.44,true
+ORD-1288,2025-01-19,North,Beauty,Wholesale,44,9.09,0.06,375.96,true
+ORD-1289,2025-01-19,North,Snacks,Wholesale,35,14.31,0.09,455.77,true
+ORD-1290,2025-01-19,North,Health,Wholesale,35,18.41,0.0,644.35,true
+ORD-1291,2025-01-19,North,Home Care,Wholesale,37,24.15,0.03,866.74,true
+ORD-1292,2025-01-19,South,Beauty,Wholesale,47,8.95,0.06,395.41,true
+ORD-1293,2025-01-19,South,Snacks,Wholesale,35,15.48,0.09,493.04,true
+ORD-1294,2025-01-19,South,Health,Wholesale,36,18.94,0.0,681.84,true
+ORD-1295,2025-01-19,South,Home Care,Wholesale,35,23.6,0.03,801.22,true
+ORD-1296,2025-01-19,East,Beauty,Online,45,8.57,0.06,362.51,true
+ORD-1297,2025-01-19,East,Snacks,Online,36,14.16,0.09,463.88,true
+ORD-1298,2025-01-19,East,Health,Online,33,17.99,0.0,593.67,true
+ORD-1299,2025-01-19,East,Home Care,Online,32,23.02,0.03,714.54,true
+ORD-1300,2025-01-19,West,Beauty,Online,40,9.73,0.06,365.85,true
+ORD-1301,2025-01-19,West,Snacks,Online,32,15.06,0.09,438.55,true
+ORD-1302,2025-01-19,West,Health,Online,33,18.25,0.0,602.25,true
+ORD-1303,2025-01-19,West,Home Care,Online,33,22.68,0.03,725.99,true
+ORD-1304,2025-01-20,North,Beauty,Store,25,9.77,0.09,222.27,false
+ORD-1305,2025-01-20,North,Snacks,Store,30,14.46,0.0,433.8,false
+ORD-1306,2025-01-20,North,Health,Store,27,18.11,0.03,474.3,false
+ORD-1307,2025-01-20,North,Home Care,Store,25,24.11,0.06,566.58,false
+ORD-1308,2025-01-20,South,Beauty,Store,30,8.61,0.09,235.05,false
+ORD-1309,2025-01-20,South,Snacks,Store,25,15.56,0.0,389.0,false
+ORD-1310,2025-01-20,South,Health,Store,26,19.77,0.03,498.6,false
+ORD-1311,2025-01-20,South,Home Care,Store,29,22.41,0.06,610.9,false
+ORD-1312,2025-01-20,East,Beauty,Wholesale,25,9.78,0.09,222.49,false
+ORD-1313,2025-01-20,East,Snacks,Wholesale,24,14.52,0.0,348.48,false
+ORD-1314,2025-01-20,East,Health,Wholesale,25,18.76,0.03,454.93,false
+ORD-1315,2025-01-20,East,Home Care,Wholesale,26,24.07,0.06,588.27,false
+ORD-1316,2025-01-20,West,Beauty,Wholesale,25,10.14,0.09,230.69,false
+ORD-1317,2025-01-20,West,Snacks,Wholesale,29,14.94,0.0,433.26,false
+ORD-1318,2025-01-20,West,Health,Wholesale,25,20.1,0.03,487.43,false
+ORD-1319,2025-01-20,West,Home Care,Wholesale,24,23.56,0.06,531.51,false
+ORD-1320,2025-01-21,North,Beauty,Online,19,10.05,0.0,190.95,false
+ORD-1321,2025-01-21,North,Snacks,Online,20,14.07,0.03,272.96,false
+ORD-1322,2025-01-21,North,Health,Online,22,18.04,0.06,373.07,false
+ORD-1323,2025-01-21,North,Home Care,Online,21,23.86,0.09,455.96,false
+ORD-1324,2025-01-21,South,Beauty,Online,22,9.16,0.0,201.52,false
+ORD-1325,2025-01-21,South,Snacks,Online,22,15.09,0.03,322.02,false
+ORD-1326,2025-01-21,South,Health,Online,22,19.12,0.06,395.4,false
+ORD-1327,2025-01-21,South,Home Care,Online,17,24.15,0.09,373.6,false
+ORD-1328,2025-01-21,East,Beauty,Store,20,10.61,0.0,212.2,false
+ORD-1329,2025-01-21,East,Snacks,Store,18,14.44,0.03,252.12,false
+ORD-1330,2025-01-21,East,Health,Store,21,18.5,0.06,365.19,false
+ORD-1331,2025-01-21,East,Home Care,Store,20,23.75,0.09,432.25,false
+ORD-1332,2025-01-21,West,Beauty,Store,16,10.79,0.0,172.64,false
+ORD-1333,2025-01-21,West,Snacks,Store,19,13.28,0.03,244.75,false
+ORD-1334,2025-01-21,West,Health,Store,18,19.22,0.06,325.2,false
+ORD-1335,2025-01-21,West,Home Care,Store,19,23.91,0.09,413.4,false
+ORD-1336,2025-01-22,North,Beauty,Wholesale,22,8.98,0.03,191.63,false
+ORD-1337,2025-01-22,North,Snacks,Wholesale,23,15.61,0.06,337.49,false
+ORD-1338,2025-01-22,North,Health,Wholesale,21,19.16,0.09,366.15,false
+ORD-1339,2025-01-22,North,Home Care,Wholesale,23,24.09,0.0,554.07,false
+ORD-1340,2025-01-22,South,Beauty,Wholesale,22,9.68,0.03,206.57,false
+ORD-1341,2025-01-22,South,Snacks,Wholesale,24,14.6,0.06,329.38,false
+ORD-1342,2025-01-22,South,Health,Wholesale,21,19.8,0.09,378.38,false
+ORD-1343,2025-01-22,South,Home Care,Wholesale,19,22.75,0.0,432.25,false
+ORD-1344,2025-01-22,East,Beauty,Online,21,9.16,0.03,186.59,false
+ORD-1345,2025-01-22,East,Snacks,Online,21,14.54,0.06,287.02,false
+ORD-1346,2025-01-22,East,Health,Online,23,18.52,0.09,387.62,false
+ORD-1347,2025-01-22,East,Home Care,Online,18,23.33,0.0,419.94,false
+ORD-1348,2025-01-22,West,Beauty,Online,20,8.99,0.03,174.41,false
+ORD-1349,2025-01-22,West,Snacks,Online,19,13.96,0.06,249.33,false
+ORD-1350,2025-01-22,West,Health,Online,20,18.42,0.09,335.24,false
+ORD-1351,2025-01-22,West,Home Care,Online,22,23.89,0.0,525.58,false
+ORD-1352,2025-01-23,North,Beauty,Store,23,10.0,0.06,216.2,false
+ORD-1353,2025-01-23,North,Snacks,Store,25,15.56,0.09,353.99,false
+ORD-1354,2025-01-23,North,Health,Store,21,18.15,0.0,381.15,false
+ORD-1355,2025-01-23,North,Home Care,Store,24,23.32,0.03,542.89,false
+ORD-1356,2025-01-23,South,Beauty,Store,22,10.36,0.06,214.24,false
+ORD-1357,2025-01-23,South,Snacks,Store,26,14.92,0.09,353.01,false
+ORD-1358,2025-01-23,South,Health,Store,24,19.64,0.0,471.36,false
+ORD-1359,2025-01-23,South,Home Care,Store,21,22.79,0.03,464.23,false
+ORD-1360,2025-01-23,East,Beauty,Wholesale,23,10.37,0.06,224.2,false
+ORD-1361,2025-01-23,East,Snacks,Wholesale,22,14.79,0.09,296.1,false
+ORD-1362,2025-01-23,East,Health,Wholesale,22,18.78,0.0,413.16,false
+ORD-1363,2025-01-23,East,Home Care,Wholesale,24,22.93,0.03,533.81,false
+ORD-1364,2025-01-23,West,Beauty,Wholesale,25,9.99,0.06,234.76,false
+ORD-1365,2025-01-23,West,Snacks,Wholesale,22,14.9,0.09,298.3,false
+ORD-1366,2025-01-23,West,Health,Wholesale,22,18.33,0.0,403.26,false
+ORD-1367,2025-01-23,West,Home Care,Wholesale,21,22.33,0.03,454.86,false
+ORD-1368,2025-01-24,North,Beauty,Online,24,9.35,0.09,204.2,false
+ORD-1369,2025-01-24,North,Snacks,Online,28,14.45,0.0,404.6,false
+ORD-1370,2025-01-24,North,Health,Online,28,18.0,0.03,488.88,false
+ORD-1371,2025-01-24,North,Home Care,Online,24,23.99,0.06,541.21,false
+ORD-1372,2025-01-24,South,Beauty,Online,25,10.46,0.09,237.97,false
+ORD-1373,2025-01-24,South,Snacks,Online,27,14.61,0.0,394.47,false
+ORD-1374,2025-01-24,South,Health,Online,23,19.75,0.03,440.62,false
+ORD-1375,2025-01-24,South,Home Care,Online,25,22.61,0.06,531.33,false
+ORD-1376,2025-01-24,East,Beauty,Store,23,9.32,0.09,195.07,false
+ORD-1377,2025-01-24,East,Snacks,Store,27,14.44,0.0,389.88,false
+ORD-1378,2025-01-24,East,Health,Store,24,17.62,0.03,410.19,false
+ORD-1379,2025-01-24,East,Home Care,Store,22,23.49,0.06,485.77,false
+ORD-1380,2025-01-24,West,Beauty,Store,27,11.05,0.09,271.5,false
+ORD-1381,2025-01-24,West,Snacks,Store,27,15.34,0.0,414.18,false
+ORD-1382,2025-01-24,West,Health,Store,25,17.78,0.03,431.16,false
+ORD-1383,2025-01-24,West,Home Care,Store,22,23.55,0.06,487.01,false
+ORD-1384,2025-01-25,North,Beauty,Wholesale,47,9.79,0.0,460.13,true
+ORD-1385,2025-01-25,North,Snacks,Wholesale,36,13.5,0.03,471.42,true
+ORD-1386,2025-01-25,North,Health,Wholesale,33,18.18,0.06,563.94,true
+ORD-1387,2025-01-25,North,Home Care,Wholesale,37,22.31,0.09,751.18,true
+ORD-1388,2025-01-25,South,Beauty,Wholesale,43,9.58,0.0,411.94,true
+ORD-1389,2025-01-25,South,Snacks,Wholesale,33,14.56,0.03,466.07,true
+ORD-1390,2025-01-25,South,Health,Wholesale,40,17.64,0.06,663.26,true
+ORD-1391,2025-01-25,South,Home Care,Wholesale,35,24.19,0.09,770.45,true
+ORD-1392,2025-01-25,East,Beauty,Online,44,8.73,0.0,384.12,true
+ORD-1393,2025-01-25,East,Snacks,Online,33,13.32,0.03,426.37,true
+ORD-1394,2025-01-25,East,Health,Online,36,19.14,0.06,647.7,true
+ORD-1395,2025-01-25,East,Home Care,Online,37,22.61,0.09,761.28,true
+ORD-1396,2025-01-25,West,Beauty,Online,47,9.53,0.0,447.91,true
+ORD-1397,2025-01-25,West,Snacks,Online,36,13.8,0.03,481.9,true
+ORD-1398,2025-01-25,West,Health,Online,37,20.17,0.06,701.51,true
+ORD-1399,2025-01-25,West,Home Care,Online,35,23.54,0.09,749.75,true
+ORD-1400,2025-01-26,North,Beauty,Store,32,10.15,0.03,315.06,true
+ORD-1401,2025-01-26,North,Snacks,Store,29,13.27,0.06,361.74,true
+ORD-1402,2025-01-26,North,Health,Store,24,19.19,0.09,419.11,true
+ORD-1403,2025-01-26,North,Home Care,Store,25,23.78,0.0,594.5,true
+ORD-1404,2025-01-26,South,Beauty,Store,33,9.15,0.03,292.89,true
+ORD-1405,2025-01-26,South,Snacks,Store,28,13.2,0.06,347.42,true
+ORD-1406,2025-01-26,South,Health,Store,22,18.6,0.09,372.37,true
+ORD-1407,2025-01-26,South,Home Care,Store,29,23.6,0.0,684.4,true
+ORD-1408,2025-01-26,East,Beauty,Wholesale,33,8.59,0.03,274.97,true
+ORD-1409,2025-01-26,East,Snacks,Wholesale,24,14.91,0.06,336.37,true
+ORD-1410,2025-01-26,East,Health,Wholesale,28,19.82,0.09,505.01,true
+ORD-1411,2025-01-26,East,Home Care,Wholesale,21,23.86,0.0,501.06,true
+ORD-1412,2025-01-26,West,Beauty,Wholesale,33,10.63,0.03,340.27,true
+ORD-1413,2025-01-26,West,Snacks,Wholesale,28,14.59,0.06,384.01,true
+ORD-1414,2025-01-26,West,Health,Wholesale,22,18.65,0.09,373.37,true
+ORD-1415,2025-01-26,West,Home Care,Wholesale,27,22.61,0.0,610.47,true
+ORD-1416,2025-01-27,North,Beauty,Online,20,10.95,0.06,205.86,false
+ORD-1417,2025-01-27,North,Snacks,Online,20,13.19,0.09,240.06,false
+ORD-1418,2025-01-27,North,Health,Online,20,19.64,0.0,392.8,false
+ORD-1419,2025-01-27,North,Home Care,Online,23,24.02,0.03,535.89,false
+ORD-1420,2025-01-27,South,Beauty,Online,23,10.99,0.06,237.6,false
+ORD-1421,2025-01-27,South,Snacks,Online,22,13.34,0.09,267.07,false
+ORD-1422,2025-01-27,South,Health,Online,24,18.32,0.0,439.68,false
+ORD-1423,2025-01-27,South,Home Care,Online,22,24.55,0.03,523.9,false
+ORD-1424,2025-01-27,East,Beauty,Store,22,9.96,0.06,205.97,false
+ORD-1425,2025-01-27,East,Snacks,Store,21,13.22,0.09,252.63,false
+ORD-1426,2025-01-27,East,Health,Store,18,19.9,0.0,358.2,false
+ORD-1427,2025-01-27,East,Home Care,Store,23,22.87,0.03,510.23,false
+ORD-1428,2025-01-27,West,Beauty,Store,20,8.57,0.06,161.12,false
+ORD-1429,2025-01-27,West,Snacks,Store,19,15.6,0.09,269.72,false
+ORD-1430,2025-01-27,West,Health,Store,22,19.09,0.0,419.98,false
+ORD-1431,2025-01-27,West,Home Care,Store,18,24.7,0.03,431.26,false
+ORD-1432,2025-01-28,North,Beauty,Wholesale,26,10.72,0.09,253.64,false
+ORD-1433,2025-01-28,North,Snacks,Wholesale,25,13.11,0.0,327.75,false
+ORD-1434,2025-01-28,North,Health,Wholesale,22,18.77,0.03,400.55,false
+ORD-1435,2025-01-28,North,Home Care,Wholesale,26,23.19,0.06,566.76,false
+ORD-1436,2025-01-28,South,Beauty,Wholesale,23,8.99,0.09,188.16,false
+ORD-1437,2025-01-28,South,Snacks,Wholesale,25,14.18,0.0,354.5,false
+ORD-1438,2025-01-28,South,Health,Wholesale,24,20.12,0.03,468.39,false
+ORD-1439,2025-01-28,South,Home Care,Wholesale,24,22.94,0.06,517.53,false
+ORD-1440,2025-01-28,East,Beauty,Online,22,9.37,0.09,187.59,false
+ORD-1441,2025-01-28,East,Snacks,Online,20,15.32,0.0,306.4,false
+ORD-1442,2025-01-28,East,Health,Online,22,18.61,0.03,397.14,false
+ORD-1443,2025-01-28,East,Home Care,Online,23,22.78,0.06,492.5,false
+ORD-1444,2025-01-28,West,Beauty,Online,23,10.7,0.09,223.95,false
+ORD-1445,2025-01-28,West,Snacks,Online,24,13.1,0.0,314.4,false
+ORD-1446,2025-01-28,West,Health,Online,20,18.35,0.03,355.99,false
+ORD-1447,2025-01-28,West,Home Care,Online,22,22.31,0.06,461.37,false
+ORD-1448,2025-01-29,North,Beauty,Store,26,10.84,0.0,281.84,false
+ORD-1449,2025-01-29,North,Snacks,Store,23,14.78,0.03,329.74,false
+ORD-1450,2025-01-29,North,Health,Store,27,18.75,0.06,475.88,false
+ORD-1451,2025-01-29,North,Home Care,Store,23,22.51,0.09,471.13,false
+ORD-1452,2025-01-29,South,Beauty,Store,25,10.18,0.0,254.5,false
+ORD-1453,2025-01-29,South,Snacks,Store,26,14.69,0.03,370.48,false
+ORD-1454,2025-01-29,South,Health,Store,23,18.05,0.06,390.24,false
+ORD-1455,2025-01-29,South,Home Care,Store,27,22.35,0.09,549.14,false
+ORD-1456,2025-01-29,East,Beauty,Wholesale,24,9.68,0.0,232.32,false
+ORD-1457,2025-01-29,East,Snacks,Wholesale,27,14.31,0.03,374.78,false
+ORD-1458,2025-01-29,East,Health,Wholesale,22,20.13,0.06,416.29,false
+ORD-1459,2025-01-29,East,Home Care,Wholesale,26,24.16,0.09,571.63,false
+ORD-1460,2025-01-29,West,Beauty,Wholesale,27,8.93,0.0,241.11,false
+ORD-1461,2025-01-29,West,Snacks,Wholesale,26,13.04,0.03,328.87,false
+ORD-1462,2025-01-29,West,Health,Wholesale,25,17.75,0.06,417.12,false
+ORD-1463,2025-01-29,West,Home Care,Wholesale,22,23.25,0.09,465.47,false
+ORD-1464,2025-01-30,North,Beauty,Online,25,10.25,0.03,248.56,false
+ORD-1465,2025-01-30,North,Snacks,Online,26,14.35,0.06,350.71,false
+ORD-1466,2025-01-30,North,Health,Online,30,18.29,0.09,499.32,false
+ORD-1467,2025-01-30,North,Home Care,Online,30,22.74,0.0,682.2,false
+ORD-1468,2025-01-30,South,Beauty,Online,28,11.15,0.03,302.83,false
+ORD-1469,2025-01-30,South,Snacks,Online,26,14.23,0.06,347.78,false
+ORD-1470,2025-01-30,South,Health,Online,26,18.54,0.09,438.66,false
+ORD-1471,2025-01-30,South,Home Care,Online,29,23.37,0.0,677.73,false
+ORD-1472,2025-01-30,East,Beauty,Store,25,10.83,0.03,262.63,false
+ORD-1473,2025-01-30,East,Snacks,Store,26,15.09,0.06,368.8,false
+ORD-1474,2025-01-30,East,Health,Store,27,18.42,0.09,452.58,false
+ORD-1475,2025-01-30,East,Home Care,Store,28,22.72,0.0,636.16,false
+ORD-1476,2025-01-30,West,Beauty,Store,24,9.26,0.03,215.57,false
+ORD-1477,2025-01-30,West,Snacks,Store,26,15.26,0.06,372.95,false
+ORD-1478,2025-01-30,West,Health,Store,28,20.2,0.09,514.7,false
+ORD-1479,2025-01-30,West,Home Care,Store,27,24.34,0.0,657.18,false
+ORD-1480,2025-01-31,North,Beauty,Wholesale,20,9.95,0.06,187.06,false
+ORD-1481,2025-01-31,North,Snacks,Wholesale,19,13.9,0.09,240.33,false
+ORD-1482,2025-01-31,North,Health,Wholesale,21,18.52,0.0,388.92,false
+ORD-1483,2025-01-31,North,Home Care,Wholesale,19,24.35,0.03,448.77,false
+ORD-1484,2025-01-31,South,Beauty,Wholesale,22,9.14,0.06,189.02,false
+ORD-1485,2025-01-31,South,Snacks,Wholesale,20,13.63,0.09,248.07,false
+ORD-1486,2025-01-31,South,Health,Wholesale,20,17.62,0.0,352.4,false
+ORD-1487,2025-01-31,South,Home Care,Wholesale,22,23.28,0.03,496.8,false
+ORD-1488,2025-01-31,East,Beauty,Online,19,9.54,0.06,170.38,false
+ORD-1489,2025-01-31,East,Snacks,Online,21,15.14,0.09,289.33,false
+ORD-1490,2025-01-31,East,Health,Online,21,20.15,0.0,423.15,false
+ORD-1491,2025-01-31,East,Home Care,Online,19,24.61,0.03,453.56,false
+ORD-1492,2025-01-31,West,Beauty,Online,17,9.86,0.06,157.56,false
+ORD-1493,2025-01-31,West,Snacks,Online,20,13.9,0.09,252.98,false
+ORD-1494,2025-01-31,West,Health,Online,16,19.86,0.0,317.76,false
+ORD-1495,2025-01-31,West,Home Care,Online,19,22.27,0.03,410.44,false
+ORD-1496,2025-02-01,North,Beauty,Store,39,8.54,0.09,303.08,true
+ORD-1497,2025-02-01,North,Snacks,Store,27,14.11,0.0,380.97,true
+ORD-1498,2025-02-01,North,Health,Store,32,20.12,0.03,624.52,true
+ORD-1499,2025-02-01,North,Home Care,Store,25,23.27,0.06,546.84,true
+ORD-1500,2025-02-01,South,Beauty,Store,37,9.41,0.09,316.83,true
+ORD-1501,2025-02-01,South,Snacks,Store,32,14.07,0.0,450.24,true
+ORD-1502,2025-02-01,South,Health,Store,25,19.8,0.03,480.15,true
+ORD-1503,2025-02-01,South,Home Care,Store,32,24.32,0.06,731.55,true
+ORD-1504,2025-02-01,East,Beauty,Wholesale,37,11.08,0.09,373.06,true
+ORD-1505,2025-02-01,East,Snacks,Wholesale,31,14.94,0.0,463.14,true
+ORD-1506,2025-02-01,East,Health,Wholesale,28,19.86,0.03,539.4,true
+ORD-1507,2025-02-01,East,Home Care,Wholesale,24,23.67,0.06,534.0,true
+ORD-1508,2025-02-01,West,Beauty,Wholesale,35,10.2,0.09,324.87,true
+ORD-1509,2025-02-01,West,Snacks,Wholesale,27,15.69,0.0,423.63,true
+ORD-1510,2025-02-01,West,Health,Wholesale,31,17.74,0.03,533.44,true
+ORD-1511,2025-02-01,West,Home Care,Wholesale,24,24.05,0.06,542.57,true
+ORD-1512,2025-02-02,North,Beauty,Online,44,10.86,0.0,477.84,true
+ORD-1513,2025-02-02,North,Snacks,Online,32,13.45,0.03,417.49,true
+ORD-1514,2025-02-02,North,Health,Online,31,19.94,0.06,581.05,true
+ORD-1515,2025-02-02,North,Home Care,Online,28,22.88,0.09,582.98,true
+ORD-1516,2025-02-02,South,Beauty,Online,37,9.29,0.0,343.73,true
+ORD-1517,2025-02-02,South,Snacks,Online,31,14.16,0.03,425.79,true
+ORD-1518,2025-02-02,South,Health,Online,29,18.93,0.06,516.03,true
+ORD-1519,2025-02-02,South,Home Care,Online,33,23.84,0.09,715.92,true
+ORD-1520,2025-02-02,East,Beauty,Store,37,8.96,0.0,331.52,true
+ORD-1521,2025-02-02,East,Snacks,Store,27,14.65,0.03,383.68,true
+ORD-1522,2025-02-02,East,Health,Store,31,19.17,0.06,558.61,true
+ORD-1523,2025-02-02,East,Home Care,Store,28,23.34,0.09,594.7,true
+ORD-1524,2025-02-02,West,Beauty,Store,41,8.89,0.0,364.49,true
+ORD-1525,2025-02-02,West,Snacks,Store,31,14.72,0.03,442.63,true
+ORD-1526,2025-02-02,West,Health,Store,31,18.19,0.06,530.06,true
+ORD-1527,2025-02-02,West,Home Care,Store,27,24.43,0.09,600.25,true
+ORD-1528,2025-02-03,North,Beauty,Wholesale,26,10.93,0.03,275.65,false
+ORD-1529,2025-02-03,North,Snacks,Wholesale,28,14.48,0.06,381.11,false
+ORD-1530,2025-02-03,North,Health,Wholesale,23,18.69,0.09,391.18,false
+ORD-1531,2025-02-03,North,Home Care,Wholesale,25,24.67,0.0,616.75,false
+ORD-1532,2025-02-03,South,Beauty,Wholesale,25,10.23,0.03,248.08,false
+ORD-1533,2025-02-03,South,Snacks,Wholesale,26,14.86,0.06,363.18,false
+ORD-1534,2025-02-03,South,Health,Wholesale,26,19.78,0.09,467.99,false
+ORD-1535,2025-02-03,South,Home Care,Wholesale,24,24.7,0.0,592.8,false
+ORD-1536,2025-02-03,East,Beauty,Online,25,8.79,0.03,213.16,false
+ORD-1537,2025-02-03,East,Snacks,Online,25,14.54,0.06,341.69,false
+ORD-1538,2025-02-03,East,Health,Online,26,18.3,0.09,432.98,false
+ORD-1539,2025-02-03,East,Home Care,Online,27,22.8,0.0,615.6,false
+ORD-1540,2025-02-03,West,Beauty,Online,27,9.57,0.03,250.64,false
+ORD-1541,2025-02-03,West,Snacks,Online,22,14.53,0.06,300.48,false
+ORD-1542,2025-02-03,West,Health,Online,27,19.6,0.09,481.57,false
+ORD-1543,2025-02-03,West,Home Care,Online,22,24.46,0.0,538.12,false
+ORD-1544,2025-02-04,North,Beauty,Store,30,9.84,0.06,277.49,false
+ORD-1545,2025-02-04,North,Snacks,Store,27,15.09,0.09,370.76,false
+ORD-1546,2025-02-04,North,Health,Store,26,19.14,0.0,497.64,false
+ORD-1547,2025-02-04,North,Home Care,Store,27,22.59,0.03,591.63,false
+ORD-1548,2025-02-04,South,Beauty,Store,26,10.18,0.06,248.8,false
+ORD-1549,2025-02-04,South,Snacks,Store,30,15.04,0.09,410.59,false
+ORD-1550,2025-02-04,South,Health,Store,30,19.34,0.0,580.2,false
+ORD-1551,2025-02-04,South,Home Care,Store,26,23.7,0.03,597.71,false
+ORD-1552,2025-02-04,East,Beauty,Wholesale,29,10.25,0.06,279.41,false
+ORD-1553,2025-02-04,East,Snacks,Wholesale,26,15.13,0.09,357.98,false
+ORD-1554,2025-02-04,East,Health,Wholesale,24,19.06,0.0,457.44,false
+ORD-1555,2025-02-04,East,Home Care,Wholesale,29,22.35,0.03,628.71,false
+ORD-1556,2025-02-04,West,Beauty,Wholesale,26,9.38,0.06,229.25,false
+ORD-1557,2025-02-04,West,Snacks,Wholesale,27,13.47,0.09,330.96,false
+ORD-1558,2025-02-04,West,Health,Wholesale,25,19.62,0.0,490.5,false
+ORD-1559,2025-02-04,West,Home Care,Wholesale,26,23.43,0.03,590.9,false
+ORD-1560,2025-02-05,North,Beauty,Online,19,10.74,0.09,185.69,false
+ORD-1561,2025-02-05,North,Snacks,Online,19,15.47,0.0,293.93,false
+ORD-1562,2025-02-05,North,Health,Online,20,20.11,0.03,390.13,false
+ORD-1563,2025-02-05,North,Home Care,Online,19,24.02,0.06,429.0,false
+ORD-1564,2025-02-05,South,Beauty,Online,19,10.67,0.09,184.48,false
+ORD-1565,2025-02-05,South,Snacks,Online,20,15.6,0.0,312.0,false
+ORD-1566,2025-02-05,South,Health,Online,18,19.54,0.03,341.17,false
+ORD-1567,2025-02-05,South,Home Care,Online,18,24.32,0.06,411.49,false
+ORD-1568,2025-02-05,East,Beauty,Store,21,10.32,0.09,197.22,false
+ORD-1569,2025-02-05,East,Snacks,Store,19,15.61,0.0,296.59,false
+ORD-1570,2025-02-05,East,Health,Store,20,18.49,0.03,358.71,false
+ORD-1571,2025-02-05,East,Home Care,Store,19,22.04,0.06,393.63,false
+ORD-1572,2025-02-05,West,Beauty,Store,20,8.83,0.09,160.71,false
+ORD-1573,2025-02-05,West,Snacks,Store,18,14.82,0.0,266.76,false
+ORD-1574,2025-02-05,West,Health,Store,21,18.21,0.03,370.94,false
+ORD-1575,2025-02-05,West,Home Care,Store,19,24.22,0.06,432.57,false
+ORD-1576,2025-02-06,North,Beauty,Wholesale,21,8.79,0.0,184.59,false
+ORD-1577,2025-02-06,North,Snacks,Wholesale,20,14.27,0.03,276.84,false
+ORD-1578,2025-02-06,North,Health,Wholesale,23,19.89,0.06,430.02,false
+ORD-1579,2025-02-06,North,Home Care,Wholesale,23,22.89,0.09,479.09,false
+ORD-1580,2025-02-06,South,Beauty,Wholesale,23,9.1,0.0,209.3,false
+ORD-1581,2025-02-06,South,Snacks,Wholesale,19,14.72,0.03,271.29,false
+ORD-1582,2025-02-06,South,Health,Wholesale,22,19.96,0.06,412.77,false
+ORD-1583,2025-02-06,South,Home Care,Wholesale,21,23.75,0.09,453.86,false
+ORD-1584,2025-02-06,East,Beauty,Online,18,8.88,0.0,159.84,false
+ORD-1585,2025-02-06,East,Snacks,Online,18,13.82,0.03,241.3,false
+ORD-1586,2025-02-06,East,Health,Online,21,17.81,0.06,351.57,false
+ORD-1587,2025-02-06,East,Home Care,Online,19,24.4,0.09,421.88,false
+ORD-1588,2025-02-06,West,Beauty,Online,19,9.55,0.0,181.45,false
+ORD-1589,2025-02-06,West,Snacks,Online,20,14.81,0.03,287.31,false
+ORD-1590,2025-02-06,West,Health,Online,23,19.38,0.06,419.0,false
+ORD-1591,2025-02-06,West,Home Care,Online,22,23.13,0.09,463.06,false
+ORD-1592,2025-02-07,North,Beauty,Store,26,10.46,0.03,263.8,false
+ORD-1593,2025-02-07,North,Snacks,Store,24,14.77,0.06,333.21,false
+ORD-1594,2025-02-07,North,Health,Store,24,19.16,0.09,418.45,false
+ORD-1595,2025-02-07,North,Home Care,Store,23,22.09,0.0,508.07,false
+ORD-1596,2025-02-07,South,Beauty,Store,23,9.09,0.03,202.8,false
+ORD-1597,2025-02-07,South,Snacks,Store,24,15.57,0.06,351.26,false
+ORD-1598,2025-02-07,South,Health,Store,23,17.77,0.09,371.93,false
+ORD-1599,2025-02-07,South,Home Care,Store,26,22.99,0.0,597.74,false
+ORD-1600,2025-02-07,East,Beauty,Wholesale,25,9.47,0.03,229.65,false
+ORD-1601,2025-02-07,East,Snacks,Wholesale,23,13.74,0.06,297.06,false
+ORD-1602,2025-02-07,East,Health,Wholesale,20,20.06,0.09,365.09,false
+ORD-1603,2025-02-07,East,Home Care,Wholesale,23,22.25,0.0,511.75,false
+ORD-1604,2025-02-07,West,Beauty,Wholesale,21,10.23,0.03,208.39,false
+ORD-1605,2025-02-07,West,Snacks,Wholesale,24,15.62,0.06,352.39,false
+ORD-1606,2025-02-07,West,Health,Wholesale,20,19.62,0.09,357.08,false
+ORD-1607,2025-02-07,West,Home Care,Wholesale,21,24.67,0.0,518.07,false
+ORD-1608,2025-02-08,North,Beauty,Online,45,9.05,0.06,382.82,true
+ORD-1609,2025-02-08,North,Snacks,Online,36,13.56,0.09,444.23,true
+ORD-1610,2025-02-08,North,Health,Online,32,19.7,0.0,630.4,true
+ORD-1611,2025-02-08,North,Home Care,Online,32,22.89,0.03,710.51,true
+ORD-1612,2025-02-08,South,Beauty,Online,41,10.63,0.06,409.68,true
+ORD-1613,2025-02-08,South,Snacks,Online,36,13.01,0.09,426.21,true
+ORD-1614,2025-02-08,South,Health,Online,32,20.17,0.0,645.44,true
+ORD-1615,2025-02-08,South,Home Care,Online,36,22.68,0.03,791.99,true
+ORD-1616,2025-02-08,East,Beauty,Store,40,8.8,0.06,330.88,true
+ORD-1617,2025-02-08,East,Snacks,Store,29,13.36,0.09,352.57,true
+ORD-1618,2025-02-08,East,Health,Store,32,19.63,0.0,628.16,true
+ORD-1619,2025-02-08,East,Home Care,Store,31,23.59,0.03,709.35,true
+ORD-1620,2025-02-08,West,Beauty,Store,39,8.97,0.06,328.84,true
+ORD-1621,2025-02-08,West,Snacks,Store,29,13.34,0.09,352.04,true
+ORD-1622,2025-02-08,West,Health,Store,33,18.92,0.0,624.36,true
+ORD-1623,2025-02-08,West,Home Care,Store,36,22.17,0.03,774.18,true
+ORD-1624,2025-02-09,North,Beauty,Wholesale,47,10.6,0.09,453.36,true
+ORD-1625,2025-02-09,North,Snacks,Wholesale,39,14.6,0.0,569.4,true
+ORD-1626,2025-02-09,North,Health,Wholesale,37,18.86,0.03,676.89,true
+ORD-1627,2025-02-09,North,Home Care,Wholesale,39,22.12,0.06,810.92,true
+ORD-1628,2025-02-09,South,Beauty,Wholesale,49,9.91,0.09,441.89,true
+ORD-1629,2025-02-09,South,Snacks,Wholesale,37,14.74,0.0,545.38,true
+ORD-1630,2025-02-09,South,Health,Wholesale,33,17.66,0.03,565.3,true
+ORD-1631,2025-02-09,South,Home Care,Wholesale,37,24.29,0.06,844.81,true
+ORD-1632,2025-02-09,East,Beauty,Online,45,10.35,0.09,423.83,true
+ORD-1633,2025-02-09,East,Snacks,Online,36,14.92,0.0,537.12,true
+ORD-1634,2025-02-09,East,Health,Online,36,17.7,0.03,618.08,true
+ORD-1635,2025-02-09,East,Home Care,Online,32,22.87,0.06,687.93,true
+ORD-1636,2025-02-09,West,Beauty,Online,43,8.68,0.09,339.65,true
+ORD-1637,2025-02-09,West,Snacks,Online,35,14.69,0.0,514.15,true
+ORD-1638,2025-02-09,West,Health,Online,37,18.98,0.03,681.19,true
+ORD-1639,2025-02-09,West,Home Care,Online,35,23.03,0.06,757.69,true
+ORD-1640,2025-02-10,North,Beauty,Store,21,9.93,0.0,208.53,false
+ORD-1641,2025-02-10,North,Snacks,Store,20,14.36,0.03,278.58,false
+ORD-1642,2025-02-10,North,Health,Store,20,17.77,0.06,334.08,false
+ORD-1643,2025-02-10,North,Home Care,Store,22,22.31,0.09,446.65,false
+ORD-1644,2025-02-10,South,Beauty,Store,22,10.26,0.0,225.72,false
+ORD-1645,2025-02-10,South,Snacks,Store,21,14.95,0.03,304.53,false
+ORD-1646,2025-02-10,South,Health,Store,18,18.66,0.06,315.73,false
+ORD-1647,2025-02-10,South,Home Care,Store,18,23.12,0.09,378.71,false
+ORD-1648,2025-02-10,East,Beauty,Wholesale,19,9.58,0.0,182.02,false
+ORD-1649,2025-02-10,East,Snacks,Wholesale,21,13.26,0.03,270.11,false
+ORD-1650,2025-02-10,East,Health,Wholesale,19,18.34,0.06,327.55,false
+ORD-1651,2025-02-10,East,Home Care,Wholesale,18,23.01,0.09,376.9,false
+ORD-1652,2025-02-10,West,Beauty,Wholesale,17,10.35,0.0,175.95,false
+ORD-1653,2025-02-10,West,Snacks,Wholesale,19,13.18,0.03,242.91,false
+ORD-1654,2025-02-10,West,Health,Wholesale,16,17.75,0.06,266.96,false
+ORD-1655,2025-02-10,West,Home Care,Wholesale,16,24.01,0.09,349.59,false
+ORD-1656,2025-02-11,North,Beauty,Online,21,10.69,0.03,217.76,false
+ORD-1657,2025-02-11,North,Snacks,Online,23,13.16,0.06,284.52,false
+ORD-1658,2025-02-11,North,Health,Online,23,19.02,0.09,398.09,false
+ORD-1659,2025-02-11,North,Home Care,Online,24,22.33,0.0,535.92,false
+ORD-1660,2025-02-11,South,Beauty,Online,21,10.86,0.03,221.22,false
+ORD-1661,2025-02-11,South,Snacks,Online,22,15.34,0.06,317.23,false
+ORD-1662,2025-02-11,South,Health,Online,24,17.64,0.09,385.26,false
+ORD-1663,2025-02-11,South,Home Care,Online,21,23.62,0.0,496.02,false
+ORD-1664,2025-02-11,East,Beauty,Store,20,8.78,0.03,170.33,false
+ORD-1665,2025-02-11,East,Snacks,Store,22,13.57,0.06,280.63,false
+ORD-1666,2025-02-11,East,Health,Store,23,18.8,0.09,393.48,false
+ORD-1667,2025-02-11,East,Home Care,Store,18,22.95,0.0,413.1,false
+ORD-1668,2025-02-11,West,Beauty,Store,22,9.49,0.03,202.52,false
+ORD-1669,2025-02-11,West,Snacks,Store,20,14.55,0.06,273.54,false
+ORD-1670,2025-02-11,West,Health,Store,21,19.78,0.09,378.0,false
+ORD-1671,2025-02-11,West,Home Care,Store,22,23.66,0.0,520.52,false
+ORD-1672,2025-02-12,North,Beauty,Wholesale,26,10.0,0.06,244.4,false
+ORD-1673,2025-02-12,North,Snacks,Wholesale,25,15.51,0.09,352.85,false
+ORD-1674,2025-02-12,North,Health,Wholesale,26,18.22,0.0,473.72,false
+ORD-1675,2025-02-12,North,Home Care,Wholesale,22,22.74,0.03,485.27,false
+ORD-1676,2025-02-12,South,Beauty,Wholesale,23,10.99,0.06,237.6,false
+ORD-1677,2025-02-12,South,Snacks,Wholesale,23,13.02,0.09,272.51,false
+ORD-1678,2025-02-12,South,Health,Wholesale,22,19.03,0.0,418.66,false
+ORD-1679,2025-02-12,South,Home Care,Wholesale,24,22.19,0.03,516.58,false
+ORD-1680,2025-02-12,East,Beauty,Online,25,10.21,0.06,239.94,false
+ORD-1681,2025-02-12,East,Snacks,Online,20,13.25,0.09,241.15,false
+ORD-1682,2025-02-12,East,Health,Online,24,18.08,0.0,433.92,false
+ORD-1683,2025-02-12,East,Home Care,Online,23,23.22,0.03,518.04,false
+ORD-1684,2025-02-12,West,Beauty,Online,21,9.5,0.06,187.53,false
+ORD-1685,2025-02-12,West,Snacks,Online,25,13.88,0.09,315.77,false
+ORD-1686,2025-02-12,West,Health,Online,24,19.11,0.0,458.64,false
+ORD-1687,2025-02-12,West,Home Care,Online,20,22.42,0.03,434.95,false
+ORD-1688,2025-02-13,North,Beauty,Store,27,8.63,0.09,212.04,false
+ORD-1689,2025-02-13,North,Snacks,Store,23,13.73,0.0,315.79,false
+ORD-1690,2025-02-13,North,Health,Store,28,18.64,0.03,506.26,false
+ORD-1691,2025-02-13,North,Home Care,Store,27,23.19,0.06,588.56,false
+ORD-1692,2025-02-13,South,Beauty,Store,25,9.08,0.09,206.57,false
+ORD-1693,2025-02-13,South,Snacks,Store,27,13.31,0.0,359.37,false
+ORD-1694,2025-02-13,South,Health,Store,26,17.8,0.03,448.92,false
+ORD-1695,2025-02-13,South,Home Care,Store,28,23.83,0.06,627.21,false
+ORD-1696,2025-02-13,East,Beauty,Wholesale,25,9.92,0.09,225.68,false
+ORD-1697,2025-02-13,East,Snacks,Wholesale,24,13.12,0.0,314.88,false
+ORD-1698,2025-02-13,East,Health,Wholesale,25,20.16,0.03,488.88,false
+ORD-1699,2025-02-13,East,Home Care,Wholesale,22,22.02,0.06,455.37,false
+ORD-1700,2025-02-13,West,Beauty,Wholesale,24,11.05,0.09,241.33,false
+ORD-1701,2025-02-13,West,Snacks,Wholesale,23,15.06,0.0,346.38,false
+ORD-1702,2025-02-13,West,Health,Wholesale,24,18.39,0.03,428.12,false
+ORD-1703,2025-02-13,West,Home Care,Wholesale,22,23.34,0.06,482.67,false
+ORD-1704,2025-02-14,North,Beauty,Online,28,8.97,0.0,251.16,false
+ORD-1705,2025-02-14,North,Snacks,Online,28,14.44,0.03,392.19,false
+ORD-1706,2025-02-14,North,Health,Online,26,18.85,0.06,460.69,false
+ORD-1707,2025-02-14,North,Home Care,Online,30,24.18,0.09,660.11,false
+ORD-1708,2025-02-14,South,Beauty,Online,25,9.57,0.0,239.25,false
+ORD-1709,2025-02-14,South,Snacks,Online,30,13.11,0.03,381.5,false
+ORD-1710,2025-02-14,South,Health,Online,25,18.74,0.06,440.39,false
+ORD-1711,2025-02-14,South,Home Care,Online,25,24.33,0.09,553.51,false
+ORD-1712,2025-02-14,East,Beauty,Store,28,9.66,0.0,270.48,false
+ORD-1713,2025-02-14,East,Snacks,Store,27,14.92,0.03,390.75,false
+ORD-1714,2025-02-14,East,Health,Store,27,18.28,0.06,463.95,false
+ORD-1715,2025-02-14,East,Home Care,Store,27,22.06,0.09,542.01,false
+ORD-1716,2025-02-14,West,Beauty,Store,26,8.96,0.0,232.96,false
+ORD-1717,2025-02-14,West,Snacks,Store,28,14.24,0.03,386.76,false
+ORD-1718,2025-02-14,West,Health,Store,29,19.98,0.06,544.65,false
+ORD-1719,2025-02-14,West,Home Care,Store,24,23.18,0.09,506.25,false
