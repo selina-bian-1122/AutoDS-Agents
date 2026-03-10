@@ -27,11 +27,9 @@ cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
 ``
-
-
+**Note on Local Usage:** Use own IP address to replace [127.0.0.1]
 Default local address: `http://127.0.0.1:8000`
 
-**Note on Local Usage:** Use own IP address to replace [127.0.0.1]
 
 ### 2. Frontend
 
