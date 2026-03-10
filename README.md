@@ -1,9 +1,8 @@
-﻿# Local Multi-Agent Data Analysis Workbench
-
-![Overview](archive/Interface_1.png)
+﻿# Multi-Agent Data Analysis Workbench
 
 A multi-agent system example. It provides a React frontend, a FastAPI backend, SQLite + local file storage, and a closed-loop collaboration of four agents: Planner, Coder, Executor, and Reporter.
 
+![Overview](archive/Interface_1.png)
 ![Execution Details](archive/Interface_2.png)
 
 ## Agent Capabilities
@@ -27,11 +26,12 @@ A multi-agent system example. It provides a React frontend, a FastAPI backend, S
 cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
-```
+``
 
-> **Note on Local Usage:** Using `127.0.0.1` or `localhost` is completely sufficient for running on your personal computer. You only need to bind to an actual `[IP_ADDRESS]` (like `0.0.0.0` or `192.168.x.x`) if you intend to access the backend from another device on the same Wifi network.
 
 Default local address: `http://127.0.0.1:8000`
+
+**Note on Local Usage:** Use own IP address to replace [127.0.0.1]
 
 ### 2. Frontend
 
