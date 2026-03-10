@@ -65,7 +65,7 @@ For optional environment variables, see `.env.example`.
 
 ## Future Work
 
-- LangGraph Integration: Transition the current linear, hard-coded orchestrator loop to a state-graph architecture. This is necessary to support non-deterministic branching (e.g., routing to a `SQL Coder` vs. a `Pandas Coder` based on input type), and native multi-tool nested ReAct loops as the application complexity grows beyond MVP.
-- Support Excel, Parquet, and database connectors.
-- Replace the local executor with a more secure, isolated sandbox.
-- Add Prompt management, caching, and evaluation mechanisms for actual LLM execution mode.
+- **LangGraph Integration**: Transition the current linear, hard-coded orchestrator loop to a state-graph architecture. This is necessary to support non-deterministic branching (e.g., routing to a `SQL Coder` vs. a `Pandas Coder` based on input type), and native multi-tool nested ReAct loops as the application complexity grows beyond MVP.
+- **More Input Format**: Support Excel, Parquet, and database connectors.
+- **Sandbox**: Replace the local executor with a more secure, isolated sandbox.
+- **Prompt & Evaluation**: Add Prompt management, caching, and evaluation mechanisms for actual LLM execution mode.
